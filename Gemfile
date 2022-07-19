@@ -64,3 +64,7 @@ group :development do
   # gem "spring"
 end
 
+gem "devise"
+gem "refile", require: "refile/rails", github: "manfe/refile"
+gem "refile-mini_magick"
+gem "bulma-rails"
